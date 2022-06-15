@@ -1,0 +1,24 @@
+{
+	"deviceConfigs": {
+		"storeTelemetry": {
+			"defaultValue": true,
+			"dataType"    : "boolean",
+			"isSensitive" : false,
+			"description" : "Should telemetry be stored for this device?"
+		},
+		"ip": {
+			"defaultValue": "",
+			"dataType"    : "string",
+			"isSensitive" : false,
+			"isReadOnly"  : false,
+			"description" : "The ip address of the device."
+		},
+		"mac": {
+			"defaultValue": "",
+			"dataType"    : "string",
+			"isSensitive" : false,
+			"isReadOnly"  : false,
+			"description" : "The mac address of the device. (Required for Wake On Lan!)"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"skill": "TVControl",
+	"icon": "film",
+	"description": "Control your TV with Alice!",
+	"slotTypes": [],
+	"intents": []
+}

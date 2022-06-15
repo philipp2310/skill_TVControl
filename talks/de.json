@@ -1,0 +1,26 @@
+{
+	"authFailed": [
+		"Authentifizierung fehlgeschlagen. Bitte prüfe deine Login Daten in den Einstellungen"
+	],
+
+	"TVC_notSupported":
+			[
+				"Diese Funktion wird vom Gerät nicht unterstützt!",
+				"Dieses Gerät kann das nicht"
+			],
+
+	"TVC_found":
+			[
+				"Ich habe {} Geräte vom Typ {} gefunden!",
+				"Es gibt {} neue Geräte vom Typ {}",
+				"Ich habe {} {} Geräte gefunden"
+			],
+	"TVC_confirmOnDevice":
+			[
+				"Bitte bestätige die Verbindung auf deinem {} Fernseher!"
+			],
+	"TVC_newDeviceConnected":
+			[
+				"Ich habe ein neues Geräte vom typ {} hinzugefügt."
+			]
+}

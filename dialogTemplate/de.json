@@ -1,0 +1,195 @@
+{
+	"skill": "TVControl",
+	"icon": "film",
+	"description": "Kontrolliere deinen Fernseher mit Alice!",
+	"slotTypes": [],
+	"intents": [
+		{
+			"name": "TV_turnOn",
+			"description": "Schalte den Fernseher ein",
+			"enabledByDefault": true,
+			"utterances": [
+				"Schalte bitte den Fernseher ein.",
+				"Schalte bitte den Fernseher in der {Küche:=>Location} ein.",
+				"Schalte bitte den Fernseher im {Wohnzimmer:=>Location} ein.",
+				"Mach bitte den Fernseher an.",
+				"Mach bitte im {Wohnzimmer:=>Location} den Fernseher an.",
+				"Mach bitte in der {Wohnzimmer:=>Location} den Fernseher an.",
+				"Bitte mach den Fernseher an.",
+				"Bitte mach den Fernseher in der {Wohnzimmer:=>Location} an.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} an.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} ein.",
+				"Schalte den Fernseher im {Wohnzimmer:=>Location} an.",
+				"Schalte den Fernseher ein.",
+				"Schalte in der {Wohnzimmer:=>Location} den Fernseher ein.",
+				"Kannst du bitte den Fernseher anschalten",
+				"Kannst du bitte den Fernseher im {Wohnzimmer:=>Location} anschalten",
+				"Kannst du bitte den Fernseher in der {Wohnzimmer:=>Location} einschalten",
+				"Kannst du im {Wohnzimmer:=>Location} den Fernseher einschalten",
+				"Fernseher an",
+				"Fernseher ein",
+				"Fernseher im {Wohnzimmer:=>Location} an",
+				"Fernseher in der {Wohnzimmer:=>Location} einschalten",
+				"Fernseher im {Wohnzimmer:=>Location} an schalten",
+				"TV einschalten",
+				"Bitte schalte den TV im {Wohnzimmer:=>Location} ein",
+				"Schalte bitte den TV in der {Wohnzimmer:=>Location} ein",
+				"Kannst du den TV im {Wohnzimmer:=>Location} bitte anschalten",
+				"Schalte doch bitte den TV im {Wohnzimmer:=>Location} an"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "TV_turnOff",
+			"description": "Schalte den Fernseher aus",
+			"enabledByDefault": true,
+			"utterances": [
+				"Schalte bitte den Fernseher aus.",
+				"Schalte bitte den Fernseher in der {Küche:=>Location} ab.",
+				"Schalte bitte den Fernseher im {Wohnzimmer:=>Location} aus.",
+				"Mach bitte den Fernseher aus.",
+				"Mach bitte im {Wohnzimmer:=>Location} den Fernseher aus.",
+				"Mach bitte in der {Wohnzimmer:=>Location} den Fernseher aus.",
+				"Bitte mach den Fernseher aus.",
+				"Bitte mach den Fernseher in der {Wohnzimmer:=>Location} aus.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} aus.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} ab.",
+				"Schalte den Fernseher im {Wohnzimmer:=>Location} aus.",
+				"Schalte den Fernseher ab.",
+				"Schalte in der {Wohnzimmer:=>Location} den Fernseher ab.",
+				"Kannst du bitte den Fernseher ausschalten",
+				"Kannst du bitte den Fernseher im {Wohnzimmer:=>Location} ausschalten",
+				"Kannst du bitte den Fernseher in der {Wohnzimmer:=>Location} abschalten",
+				"Kannst du im {Wohnzimmer:=>Location} den Fernseher abschalten",
+				"Fernseher aus",
+				"Fernseher ausschalten",
+				"Fernseher im {Wohnzimmer:=>Location} aus",
+				"Fernseher in der {Wohnzimmer:=>Location} abschalten",
+				"Fernseher im {Wohnzimmer:=>Location} ausschalten",
+				"TV ausschalten",
+				"Bitte schalte den TV im {Wohnzimmer:=>Location} aus",
+				"Schalte bitte den TV in der {Wohnzimmer:=>Location} ab",
+				"Kannst du den TV im {Wohnzimmer:=>Location} bitte abschalten",
+				"Schalte doch bitte den TV im {Wohnzimmer:=>Location} aus"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "TV_mute",
+			"description": "Schalte den Fernseher auf stumm",
+			"enabledByDefault": true,
+			"utterances": [
+				"Schalte bitte den Fernseher stumm.",
+				"Schalte bitte den Fernseher in der {Küche:=>Location} stumm.",
+				"Schalte bitte den Fernseher im {Wohnzimmer:=>Location} stumm.",
+				"Mach bitte den Fernseher stumm.",
+				"Mach bitte im {Wohnzimmer:=>Location} den Fernseher stumm.",
+				"Mach bitte in der {Wohnzimmer:=>Location} den Fernseher stumm.",
+				"Bitte mach den Fernseher stumm.",
+				"Bitte mach den Fernseher in der {Wohnzimmer:=>Location} lautlos.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} stumm.",
+				"Bitte schalte den Fernseher im {Wohnzimmer:=>Location} lautlos.",
+				"Schalte den Fernseher im {Wohnzimmer:=>Location} lautlos.",
+				"Schalte den Fernseher stumm.",
+				"Schalte in der {Wohnzimmer:=>Location} den Fernseher lautlos.",
+				"Kannst du bitte den Fernseher lautlos schalten",
+				"Kannst du bitte den Fernseher im {Wohnzimmer:=>Location} stumm schalten",
+				"Kannst du bitte den Fernseher in der {Wohnzimmer:=>Location} lautlos schalten",
+				"Kannst du im {Wohnzimmer:=>Location} den Fernseher stumm schalten",
+				"Fernseher stumm",
+				"Fernseher lautlos",
+				"Fernseher im {Wohnzimmer:=>Location} lautlos",
+				"Fernseher in der {Wohnzimmer:=>Location} stumm",
+				"Fernseher im {Wohnzimmer:=>Location} stumm",
+				"TV stumm",
+				"Bitte schalte den TV im {Wohnzimmer:=>Location} lautlos",
+				"Schalte bitte den TV in der {Wohnzimmer:=>Location} lautlos",
+				"Kannst du den TV im {Wohnzimmer:=>Location} bitte stumm schalten",
+				"Schalte doch bitte den TV im {Wohnzimmer:=>Location} stumm",
+				"Mach den Ton vom Fernseher aus",
+				"Schalte den Ton vom Fernseher im {Wohnzimmer:=>Location} aus",
+				"Bitte schalte den Ton vom TV in der {Wohnzimmer:=>Location} aus",
+				"Mach doch mal den Ton am TV aus",
+				"Bitte im {Wohnzimmer:=>Location} den Fernseher stumm schalten",
+				"Ton am Fernseher aus"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": null,
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		},
+		{
+			"name": "TV_unmute",
+			"description": "Hebe die Stummschaltung des Fernsehers auf",
+			"enabledByDefault": true,
+			"utterances": [
+				"Schalte bitte ton vom Fernseher wieder an.",
+				"Schalte bitte den Fernseher in der {Küche:=>Location} laut.",
+				"Hebe die Stummschaltung am Fernseher im {Wohnzimmer:=>Location} auf.",
+				"Mach bitte den ton am Fernseher an.",
+				"Mach bitte im {Wohnzimmer:=>Location} den ton vom Fernseher an.",
+				"Mach bitte in der {Wohnzimmer:=>Location} den ton am Fernseher an.",
+				"Bitte mach den ton vom Fernseher.",
+				"Bitte mach den ton am Fernseher in der {Wohnzimmer:=>Location} wieder an.",
+				"Bitte schalte den ton vom Fernseher im {Wohnzimmer:=>Location} an.",
+				"Bitte schalte den ton am Fernseher im {Wohnzimmer:=>Location} ein.",
+				"Schalte den ton vom Fernseher im {Wohnzimmer:=>Location} ein.",
+				"Schalte den ton von dem TV an.",
+				"Schalte in der {Wohnzimmer:=>Location} den Fernseher wieder auf ton.",
+				"Kannst du bitte den Fernseher ton wieder anschalten",
+				"Kannst du bitte die stummschaltung für den Fernseher im {Wohnzimmer:=>Location} aufheben",
+				"Kannst du bitte den Fernseher in der {Wohnzimmer:=>Location} auf laut stellen",
+				"Kannst du im {Wohnzimmer:=>Location} den Fernseher laut schalten",
+				"Fernseher laut",
+				"Fernseher ton an",
+				"Fernseher ton ein",
+				"Fernseher im {Wohnzimmer:=>Location} laut",
+				"Fernseher in der {Wohnzimmer:=>Location} ton ein",
+				"Fernseher im {Wohnzimmer:=>Location} stummschaltung aufheben",
+				"TV laut",
+				"TV Ton an",
+				"Bitte schalte den TV im {Wohnzimmer:=>Location} laut",
+				"Schalte bitte den TV in der {Wohnzimmer:=>Location} auf laut",
+				"Kannst du den ton vom TV im {Wohnzimmer:=>Location} bitte ein schalten",
+				"Schalte doch bitte den ton von dem TV im {Wohnzimmer:=>Location} an",
+				"Mach den Ton vom Fernseher an",
+				"Schalte den Ton vom Fernseher im {Wohnzimmer:=>Location} an",
+				"Bitte schalte den Ton vom TV in der {Wohnzimmer:=>Location} ein",
+				"Mach doch mal den Ton am TV an",
+				"Bitte im {Wohnzimmer:=>Location} den Fernseher laut schalten",
+				"Ton am Fernseher ein"
+			],
+			"slots": [
+				{
+					"name": "Location",
+					"description": "Raum in dem der Fernseher kontrolliert werden soll",
+					"required": false,
+					"type": "Alice/Location",
+					"missingQuestion": ""
+				}
+			]
+		}
+	]
+}
+

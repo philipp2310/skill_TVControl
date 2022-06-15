@@ -1,0 +1,16 @@
+{
+	"name": "TVControl",
+	"version": 0.01,
+	"author": "philipp2310",
+    "category": "automation",
+	"maintainers": [],
+	"desc": "Control your TV with Alice!",
+	"icon":"fas fa-tv",
+	"aliceMinVersion": "1.0.0-rc03",
+	"systemRequirements": [],
+	"pipRequirements": ["pywebostv","wakeonlan"],
+    "systemRequirements": [],
+	"conditions": {
+		"lang": ["en", "de"]
+	}
+}
